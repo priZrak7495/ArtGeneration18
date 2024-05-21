@@ -1,5 +1,5 @@
 # ArtGen18+
-Tampermonkey userscript - Show hidden images from 18+ category
+Tampermonkey ==UserScript== show hidden images from 18+ category
 Скрипт - открывает изображения из категории 18+ на сайте нейросети генерации изображений ArtGeneration.
 
 **Использование:**
