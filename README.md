@@ -1,4 +1,4 @@
-# ArtGen18
+# ArtGen18+
 Show hidden images from 18+ category
 
 Скрипт открывает изображения из категории 18+ на сайте нейросети генерации изображений ArtGeneration.
