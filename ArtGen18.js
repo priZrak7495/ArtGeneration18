@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         ArtGen 18+
+// @name         ArtGen18+
 // @namespace    https://yoomoney.ru/to/4100183641510/200
 // @version      1.0
 // @description  Show hidden 18+ images
 // @author       Dmitry aka priZrak495
 // @match        https://artgeneration.me/?gallery_category_id=99
-// @match        https://artgeneration.me/image?
+// @match        https://artgeneration.me/image?*
+// @match        https://artgeneration.me/user?*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=artgeneration.me
 // @grant        none
 // ==/UserScript==
