@@ -48,6 +48,11 @@ let currentPage = location.href;
                 var item = gaRu[i];
                 item.style.webkitFilter = "blur(0px)";
             }
+            var gDuTe = document.getElementsByClassName('SimilarImages_similar__image__img__gDuTe');
+            for (var l = 0; l < gDuTe.length; ++l) {
+                var item5 = gDuTe[l];
+                item5.style.webkitFilter = "blur(0px)";
+            }
             var PmwZl = document.getElementsByClassName('AdultOverlay_adult__block__PmwZl');
             for (var k = 0; k < PmwZl.length; ++k) {
                 var item3 = PmwZl[k];
