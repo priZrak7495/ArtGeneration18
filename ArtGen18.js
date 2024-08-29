@@ -15,25 +15,25 @@ let currentPage = location.href;
 
 (function onScrollStart() {
     'use strict';
-    var uoEcW = document.getElementsByClassName('Gallery_gallery_item__img__uoEcW');
+    var uoEcW = document.getElementsByClassName('_gallery_item__img_6150d_13');
     for (var i = 0; i < uoEcW.length; ++i) {
         var item = uoEcW[i];
         item.style.webkitFilter = "blur(0px)";
     }
 
-    var gaRu = document.getElementsByClassName('AdultOverlay_adult__blur__plug__block__jO+tl');
+    var gaRu = document.getElementsByClassName('_gallery_item__overlay_6150d_20');
     for (var j = 0; j < gaRu.length; ++j) {
         var item1 = gaRu[j];
         item1.display = 'none';
     }
 
-    var PmwZl = document.getElementsByClassName('AdultOverlay_adult__block__PmwZl');
+    var PmwZl = document.getElementsByClassName('_adult__block_1aitv_10');
     for (var k = 0; k < PmwZl.length; ++k) {
         var items = PmwZl[k];
-        items.style.display = 'none';
+        items.style.height = '0';
     }
 
-    var LQriK = document.getElementsByClassName('AdultOverlay_adult__content__block__6Ie-m');
+    var LQriK = document.getElementsByClassName('_image__view__overlay_191n8_34');
     for (var l = 0; l < LQriK.length; ++l) {
         var item5 = LQriK[l];
         item5.style.display = 'none';
@@ -43,12 +43,12 @@ let currentPage = location.href;
                 {
         if (currentPage != location.href)
         {
-            var gaRu = document.getElementsByClassName('ImageView_image__view__img__8gaRu');
+            var gaRu = document.getElementsByClassName('_image__view__img_191n8_6');
             for (var i = 0; i < gaRu.length; ++i) {
                 var item = gaRu[i];
                 item.style.webkitFilter = "blur(0px)";
             }
-            var PmwZl = document.getElementsByClassName('AdultOverlay_adult__block__PmwZl');
+            var PmwZl = document.getElementsByClassName('_image__view__overlay_191n8_34');
             for (var k = 0; k < PmwZl.length; ++k) {
                 var item3 = PmwZl[k];
                 item3.style.display = 'none';
