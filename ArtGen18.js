@@ -4,7 +4,7 @@
 // @version      1.2
 // @description  Show hidden 18+ images
 // @author       Dmitry aka priZrak495
-// @match        https://artgeneration.me/gallery/category/nsfw/new
+// @match        https://artgeneration.me/gallery/category/*
 // @match        https://artgeneration.me/image/*
 // @match        https://artgeneration.me/user/gallery/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=artgeneration.me
@@ -71,3 +71,5 @@ function handleUrlChange() {
 
     window.addEventListener("scroll", onScrollStart, false);
 })();
+
+
