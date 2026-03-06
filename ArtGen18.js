@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         ArtGen18+
-// @namespace    https://yoomoney.ru/to/4100183641510/200
-// @version      2.0
+// @version      2.1
 // @description  Show hidden 18+ images
 // @author       Dmitry aka priZrak495
 // @match        https://artgeneration.me/gallery/category/horror/*
@@ -26,11 +25,12 @@
                 el.style.filter = 'none';
             }
         });
+
         hideAllAdultOverlays();
     }
 
     function hideAllAdultOverlays() {
-        const overlays = document.querySelectorAll('.adult-image-overlay_overlay___ontainer__FPzRJ');
+        const overlays = document.querySelectorAll('.adult-image-overlay_overlay___ontainer__FPzRJ m_8bffd616 mantine-Flex-root __m__-r2k7');
         overlays.forEach(overlay => {
             overlay.style.display = 'none';
         });
